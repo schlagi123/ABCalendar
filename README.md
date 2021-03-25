@@ -1,11 +1,12 @@
 # IMPORTANT!!!
 
 **I'm just a apprentice in Software Development and this is my first dependency. Sometimes it doesn't work but I update continiusly**
+<br/>
 **WORKS SINCE 1.0.34**
+<br/>
 **UPDATES INCOMING**
 
 # ABCalendar
-
 **CURRENTLY ONLY ALL DAY & SINGLE DAY EVENTS SUPPORTED**
 
 The ABCalender was programmed, because there is still no usable calendar with year view, which is easy to use and therefore ideal for beginners.
@@ -17,14 +18,14 @@ Configurable values:
 - Event input
 - Event output (on Click)
 
+**ALL VALUES ARE NULLABLE**
+
 ## Implementation
 * run "npm i abcalendar" in Terminal
 * go to html and write **<lib-abcalendar-lib></lib-abcalendar-lib>**
 * setup calendar like in [the example](#example)
 
-
 ## Input types
-
 [views]: 
 * string[]
 * Choice:   'year','month','week','day'
@@ -50,7 +51,6 @@ Configurable values:
 
 
 ## Output Types
-
 (eventClick):
 * Item
 
@@ -65,6 +65,16 @@ months = ["January", "February", "March", "April", "May", "June", "July", "Augus
 others = ["Year", "Week", "Month", "Day", "Today", "All Day"];
 }
 ```
+<br/>
+or
+<br/>
+
+```
+export class Locale {
+locale = "'de-De'";
+}
+```
+
 <a name="item"></a>
 ##### Item:
 ```
@@ -87,7 +97,6 @@ export class List {
   dateOfExpiry = new Date(Date.now());
 }
 ```
-  
 -> [*Recommended Values]
 
 <a name="example"></a>
@@ -115,7 +124,8 @@ export class List {
 ```
 
 ## Pictures
-
+**PICTURES INCOMING**
+<br/>
 This is an example for the YearView with some Events:
 ![year view](./src/assets/expampleImages/yearview.jpg)
 

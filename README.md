@@ -1,6 +1,8 @@
 # IMPORTANT!!!
 
 **I'm just a apprentice in Software Development and this is my first dependency. Sometimes it doesn't work but I update continiusly**
+**WORKS SINCE 1.0.34**
+**UPDATES INCOMING**
 
 # ABCalendar
 
